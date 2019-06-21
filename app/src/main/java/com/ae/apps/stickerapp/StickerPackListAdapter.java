@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.ae.apps.stickerapp;
+package com.krypton.stickerapp;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,7 +20,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.ae.apps.stickerapp.analytics.Analytics;
+import com.krypton.stickerapp.analytics.Analytics;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.List;

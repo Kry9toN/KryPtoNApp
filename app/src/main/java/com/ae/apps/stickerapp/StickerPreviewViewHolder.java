@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.ae.apps.stickerapp;
+package com.krypton.stickerapp;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

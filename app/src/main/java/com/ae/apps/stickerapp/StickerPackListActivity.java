@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.ae.apps.stickerapp;
+package com.krypton.stickerapp;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -19,7 +19,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.ae.apps.stickerapp.analytics.Analytics;
+import com.krypton.stickerapp.analytics.Analytics;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;

@@ -1,5 +1,5 @@
-# ae-sticker-app
-<img src="https://github.com/midhunhk/artwork/blob/master/Stickers/00_app_icon/exp/feature_graphic.png" alt="ae sticker app" />
+# stickerapp
+<img src="" alt="ae sticker app" />
 
 [![Build Status](https://travis-ci.org/midhunhk/ae-sticker-app.svg?branch=master)](https://travis-ci.org/midhunhk/ae-sticker-app) 
 [![Release](https://img.shields.io/github/release/midhunhk/ae-sticker-app.svg)](https://github.com/midhunhk/ae-sticker-app/releases)
@@ -18,7 +18,7 @@ The source for the stickers are at available at: https://github.com/midhunhk/art
 Clone this repo and checkout the latest development branch.
 
 ```
-git clone https://github.com/midhunhk/ae-sticker-app.git  
+git clone https://github.com/Kry9toN/stickerapp.git  
 
 Open the project in Android Studio  
 ```

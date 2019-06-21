@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.ae.apps.stickerapp;
+package com.krypton.stickerapp;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;

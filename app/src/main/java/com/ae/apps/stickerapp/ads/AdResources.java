@@ -1,16 +1,16 @@
-package com.ae.apps.stickerapp.ads;
+package com.krypton.stickerapp.ads;
 
 import android.content.Context;
 
-import com.ae.apps.stickerapp.R;
+import com.krypton.stickerapp.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 
 /**
  * Implemented in below files
  *
- * See {@link com.ae.apps.stickerapp.StickerPackListAdapter}
- * See {@link com.ae.apps.stickerapp.StickerPackListActivity}
+ * See {@link com.krypton.stickerapp.StickerPackListAdapter}
+ * See {@link com.krypton.stickerapp.StickerPackListActivity}
  */
 public class AdResources {
 

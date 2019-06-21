@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.ae.apps.stickerapp;
+package com.krypton.stickerapp;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -22,18 +22,18 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-import static com.ae.apps.stickerapp.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
-import static com.ae.apps.stickerapp.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
-import static com.ae.apps.stickerapp.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
-import static com.ae.apps.stickerapp.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
-import static com.ae.apps.stickerapp.StickerContentProvider.PUBLISHER_EMAIL;
-import static com.ae.apps.stickerapp.StickerContentProvider.PUBLISHER_WEBSITE;
-import static com.ae.apps.stickerapp.StickerContentProvider.STICKER_FILE_EMOJI_IN_QUERY;
-import static com.ae.apps.stickerapp.StickerContentProvider.STICKER_FILE_NAME_IN_QUERY;
-import static com.ae.apps.stickerapp.StickerContentProvider.STICKER_PACK_ICON_IN_QUERY;
-import static com.ae.apps.stickerapp.StickerContentProvider.STICKER_PACK_IDENTIFIER_IN_QUERY;
-import static com.ae.apps.stickerapp.StickerContentProvider.STICKER_PACK_NAME_IN_QUERY;
-import static com.ae.apps.stickerapp.StickerContentProvider.STICKER_PACK_PUBLISHER_IN_QUERY;
+import static com.krypton.stickerapp.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.krypton.stickerapp.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.krypton.stickerapp.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
+import static com.krypton.stickerapp.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
+import static com.krypton.stickerapp.StickerContentProvider.PUBLISHER_EMAIL;
+import static com.krypton.stickerapp.StickerContentProvider.PUBLISHER_WEBSITE;
+import static com.krypton.stickerapp.StickerContentProvider.STICKER_FILE_EMOJI_IN_QUERY;
+import static com.krypton.stickerapp.StickerContentProvider.STICKER_FILE_NAME_IN_QUERY;
+import static com.krypton.stickerapp.StickerContentProvider.STICKER_PACK_ICON_IN_QUERY;
+import static com.krypton.stickerapp.StickerContentProvider.STICKER_PACK_IDENTIFIER_IN_QUERY;
+import static com.krypton.stickerapp.StickerContentProvider.STICKER_PACK_NAME_IN_QUERY;
+import static com.krypton.stickerapp.StickerContentProvider.STICKER_PACK_PUBLISHER_IN_QUERY;
 
 public class StickerPackLoader {
 

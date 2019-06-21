@@ -1,10 +1,10 @@
-package com.ae.apps.stickerapp.analytics;
+package com.krypton.stickerapp.analytics;
 
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
 
-import com.ae.apps.stickerapp.R;
+import com.krypton.stickerapp.R;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.util.Calendar;
