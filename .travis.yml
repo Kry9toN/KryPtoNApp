@@ -55,7 +55,7 @@ script:
 - "./gradlew clean build -Pbuild=dev"
 
 before_deploy:
-- cp $TRAVIS_BUILD_DIR/example_keystore.jks $HOME
+- cp $TRAVIS_BUILD_DIR/release.jks $HOME
 - cd app/build/outputs/apk/dev/
 - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/release.jks -storepass $storepass -keypass $keypass app-release-unsigned.apk krypton
 
