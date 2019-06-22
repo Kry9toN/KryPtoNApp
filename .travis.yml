@@ -57,11 +57,11 @@ script:
 before_deploy:
 - cp $TRAVIS_BUILD_DIR/release.jks $HOME
 - cd app/build/outputs/apk/dev/
-- jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/release.jks -storepass $storepass -keypass $keypass app-release-unsigned.apk krypton
+- jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/release.jks -storepass $storepass -keypass $keypass app-dev-unsigned.apk krypton
 
 # Verification
-- jarsigner -verify app-release-unsigned.apk
-- "${ANDROID_HOME}/build-tools/24.0.2/zipalign -v 4 app-release-unsigned.apk Sticker.apk"
+- jarsigner -verify app-dev-unsigned.apk
+- "${ANDROID_HOME}/build-tools/24.0.2/zipalign -v 4 app-dev-unsigned.apk Sticker.apk"
 
 deploy:
   provider: releases
