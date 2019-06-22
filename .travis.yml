@@ -69,7 +69,7 @@ deploy:
   skip_cleanup: true
 
   on:
-    repo: kry9ton/stickerapp
+    repo: Kry9toN/stickerapp
     tags: true
     jdk: oraclejdk8
   api_key:
