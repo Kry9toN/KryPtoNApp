@@ -6,7 +6,7 @@
     android:id="@+id/activity_pemilihan"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pemilu.com.pemiluosisversion1_0.Pemilihan"
+    tools:context="pemilu.com.pemilusmeksada.Pemilihan"
     android:background="@color/bg1">
         <RelativeLayout
             android:layout_width="match_parent"

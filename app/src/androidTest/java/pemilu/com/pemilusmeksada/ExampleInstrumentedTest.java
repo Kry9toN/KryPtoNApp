@@ -1,4 +1,4 @@
-package pemilu.com.pemiluosisversion1_0;
+package pemilu.com.pemilusmeksada;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("pemilu.com.pemiluosisversion1_0", appContext.getPackageName());
+        assertEquals("pemilu.com.pemilusmeksada", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package pemilu.com.pemiluosisversion1_0;
+package pemilu.com.pemilusmeksada;
 
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;

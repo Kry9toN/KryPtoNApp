@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="pemilu.com.pemiluosisversion1_0.Splashscreen">
+    tools:context="pemilu.com.pemilusmeksada.Splashscreen">
 
     <LinearLayout
         android:orientation="vertical"

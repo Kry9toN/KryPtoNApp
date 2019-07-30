@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "pemilu.com.pemiluosisversion1_0"
+        applicationId "pemilu.com.pemilusmeksada"
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 28
         versionCode 1
-        versionName "1.01"
+        versionName "1.00"
         multiDexEnabled true
         renderscriptSupportModeEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

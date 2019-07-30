@@ -1,4 +1,4 @@
-package pemilu.com.pemiluosisversion1_0;
+package pemilu.com.pemilusmeksada;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;

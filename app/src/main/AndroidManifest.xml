@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pemilu.com.pemiluosisversion1_0">
+    package="pemilu.com.pemilusmeksada">
 
     <uses-sdk
-        android:maxSdkVersion="23"
+        android:maxSdkVersion="28"
         android:minSdkVersion="14" />
 
     <uses-feature
@@ -21,11 +21,11 @@
         android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:icon="@drawable/ikon"
-        android:label="NEW ELECTION 2017"
+        android:label="PILKETOS SMEKSADA"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="pemilu.com.pemiluosisversion1_0.Splashscreen"
+            android:name="pemilu.com.pemilusmeksada.Splashscreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,28 +34,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="pemilu.com.pemiluosisversion1_0.Wizard"
+            android:name="pemilu.com.pemilusmeksada.Wizard"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="pemilu.com.pemiluosisversion1_0.Login"
+            android:name="pemilu.com.pemilusmeksada.Login"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pemilu.com.pemiluosisversion1_0.Pemilihan"
+            android:name="pemilu.com.pemilusmeksada.Pemilihan"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pemilu.com.pemiluosisversion1_0.Koneksi"
+            android:name="pemilu.com.pemilusmeksada.Koneksi"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pemilu.com.pemiluosisversion1_0.Kandidat1"
+            android:name="pemilu.com.pemilusmeksada.Kandidat1"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pemilu.com.pemiluosisversion1_0.Kandidat2"
+            android:name="pemilu.com.pemilusmeksada.Kandidat2"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pemilu.com.pemiluosisversion1_0.Kandidat3"
+            android:name="pemilu.com.pemilusmeksada.Kandidat3"
             android:screenOrientation="portrait" />
-        <activity android:name="pemilu.com.pemiluosisversion1_0.Berhasil_pilih"></activity>
+        <activity android:name="pemilu.com.pemilusmeksada.Berhasil_pilih"></activity>
     </application>
 
 </manifest>

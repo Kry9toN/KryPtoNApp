@@ -4,7 +4,7 @@
     android:id="@+id/activity_wizard"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pemilu.com.pemiluosisversion1_0.Wizard"
+    tools:context="pemilu.com.pemilusmeksada.Wizard"
     android:background="@color/colorPrimaryDark"
     android:orientation="vertical">
 

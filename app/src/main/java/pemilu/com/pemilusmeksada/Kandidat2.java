@@ -1,21 +1,21 @@
-package pemilu.com.pemiluosisversion1_0;
+package pemilu.com.pemilusmeksada;
 
-import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Kandidat1 extends Fragment {
+public class Kandidat2 extends Fragment {
 
     String tag = this.getClass().getSimpleName();
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         Log.i(tag,"onCreate");
         super.onCreate(savedInstanceState);
-  }
+    }
 
     @Nullable
     @Override
@@ -23,8 +23,9 @@ public class Kandidat1 extends Fragment {
         final Pemilihan pemilihan = (Pemilihan)getActivity();
 
         Log.i(tag,"onCreateView");
-        View view = inflater.inflate(R.layout.activity_kandidat1,container,false);
-        pemilihan.getJSON1();
+        View view = inflater.inflate(R.layout.activity_kandidat2,container,false);
+        pemilihan.getJSON2();
         return view;
+
     }
 }

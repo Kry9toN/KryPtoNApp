@@ -5,7 +5,7 @@
     android:id="@+id/activity_kandidat3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pemilu.com.pemiluosisversion1_0.Kandidat3">
+    tools:context="pemilu.com.pemilusmeksada.Kandidat3">
 
     <LinearLayout
         android:orientation="vertical"
