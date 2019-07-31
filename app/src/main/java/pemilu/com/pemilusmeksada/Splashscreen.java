@@ -334,9 +334,9 @@ public class Splashscreen extends AppCompatActivity {
         File gambar2 = new File(SDCardRoot+"/Android/data/"+getPackageName()+"/files/images/"+foto2);
         File gambar3 = new File(SDCardRoot+"/Android/data/"+getPackageName()+"/files/images/"+foto3);
 
-        dwnload_file_path_4 = Config.SERVER_URL+"pemilu/user/img/"+foto1;
-        dwnload_file_path_5 = Config.SERVER_URL+"pemilu/user/img/"+foto2;
-        dwnload_file_path_6 = Config.SERVER_URL+"pemilu/user/img/"+foto3;
+        dwnload_file_path_4 = Config.SERVER_URL+"user/img/"+foto1;
+        dwnload_file_path_5 = Config.SERVER_URL+"user/img/"+foto2;
+        dwnload_file_path_6 = Config.SERVER_URL+"user/img/"+foto3;
 
         if(i == 4 && !gambar1.exists()) {
             showProgress_4(dwnload_file_path_4);
@@ -378,9 +378,9 @@ public class Splashscreen extends AppCompatActivity {
     //data foto untuk kandidat 1
     void downloadFile_4(){
 
-        dwnload_file_path_4 = Config.SERVER_URL+"pemilu/user/img/"+foto1;
-        dwnload_file_path_5 = Config.SERVER_URL+"pemilu/user/img/"+foto2;
-        dwnload_file_path_6 = Config.SERVER_URL+"pemilu/user/img/"+foto3;
+        dwnload_file_path_4 = Config.SERVER_URL+"user/img/"+foto1;
+        dwnload_file_path_5 = Config.SERVER_URL+"user/img/"+foto2;
+        dwnload_file_path_6 = Config.SERVER_URL+"user/img/"+foto3;
 
         try {
             URL url = new URL(dwnload_file_path_4);
@@ -482,9 +482,9 @@ public class Splashscreen extends AppCompatActivity {
     //data foto untuk kandidat 2
     void downloadFile_5(){
 
-        dwnload_file_path_4 = Config.SERVER_URL+"pemilu/user/img/"+foto1;
-        dwnload_file_path_5 = Config.SERVER_URL+"pemilu/user/img/"+foto2;
-        dwnload_file_path_6 = Config.SERVER_URL+"pemilu/user/img/"+foto3;
+        dwnload_file_path_4 = Config.SERVER_URL+"user/img/"+foto1;
+        dwnload_file_path_5 = Config.SERVER_URL+"user/img/"+foto2;
+        dwnload_file_path_6 = Config.SERVER_URL+"user/img/"+foto3;
 
         try {
             URL url = new URL(dwnload_file_path_5);
@@ -585,9 +585,9 @@ public class Splashscreen extends AppCompatActivity {
     //data foto untuk kandidat 3
     void downloadFile_6(){
 
-        dwnload_file_path_4 = Config.SERVER_URL+"pemilu/user/img/"+foto1;
-        dwnload_file_path_5 = Config.SERVER_URL+"pemilu/user/img/"+foto2;
-        dwnload_file_path_6 = Config.SERVER_URL+"pemilu/user/img/"+foto3;
+        dwnload_file_path_4 = Config.SERVER_URL+"user/img/"+foto1;
+        dwnload_file_path_5 = Config.SERVER_URL+"user/img/"+foto2;
+        dwnload_file_path_6 = Config.SERVER_URL+"user/img/"+foto3;
 
         try {
             URL url = new URL(dwnload_file_path_6);
