@@ -6,7 +6,7 @@ package pemilu.com.pemilusmeksada;
 
 public class Config {
     //URL to our login.php file
-    public static final String SERVER_URL = "http://192.168.173.2/";
+    public static final String SERVER_URL = "http://40.70.215.124/";
     public static final String LOGIN_URL = SERVER_URL+"pemilu/user/login.php";
     public static final String VOTE_URL = SERVER_URL+"pemilu/user/vote_kandidat.php";
     public static final String KANDIDAT_URL = SERVER_URL+"pemilu/user/select_data.php?id=";
