@@ -7,11 +7,11 @@ package pemilu.com.pemilusmeksada;
 public class Config {
     //URL to our login.php file
     public static final String SERVER_URL = "http://40.70.215.124/";
-    public static final String LOGIN_URL = SERVER_URL+"user/login.php";
-    public static final String VOTE_URL = SERVER_URL+"user/vote_kandidat.php";
-    public static final String KANDIDAT_URL = SERVER_URL+"user/select_data.php?id=";
-    public static final String VIDEO_URL = SERVER_URL+"user/video-kandidat/";
-    public static final String URL_PHOTOS_USERS = SERVER_URL+"user/img/" ;
+    public static final String LOGIN_URL = SERVER_URL+"pilketosmeksada/user/login.php";
+    public static final String VOTE_URL = SERVER_URL+"pilketosmeksada/user/vote_kandidat.php";
+    public static final String KANDIDAT_URL = SERVER_URL+"pilketosmeksada/user/select_data.php?id=";
+    public static final String VIDEO_URL = SERVER_URL+"pilketosmeksada/user/video-kandidat/";
+    public static final String URL_PHOTOS_USERS = SERVER_URL+"pilketosmeksada/user/img/" ;
 
 
     //Keys for email and password as defined in our $_POST['key'] in login.php
