@@ -379,4 +379,10 @@ public class BackupFragment extends RecyclerViewFragment {
         super.onDestroy();
         mPermissionDenied = false;
     }
+
+    @Override
+    protected boolean showAd() {
+        return true;
+    }
+
 }

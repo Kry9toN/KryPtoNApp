@@ -459,4 +459,10 @@ public class CustomControlsFragment extends RecyclerViewFragment {
             mImportingThread = null;
         }
     }
+
+    @Override
+    protected boolean showAd() {
+        return true;
+    }
+
 }
