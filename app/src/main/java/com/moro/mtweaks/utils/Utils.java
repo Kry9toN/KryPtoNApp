@@ -75,6 +75,7 @@ import java.util.Random;
  */
 public class Utils {
 
+    public static boolean DONATED = BuildConfig.DEBUG;
     public static boolean DARK_THEME;
 
     public static String appVersion(){
