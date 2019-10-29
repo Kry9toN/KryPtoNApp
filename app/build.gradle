@@ -18,8 +18,8 @@ android {
         applicationId 'com.moro.mtweaks'
         minSdkVersion 23
         targetSdkVersion 29
-        versionCode 2151
-        versionName "2.15.1 "
+        versionCode 1000
+        versionName "1.0 "
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -40,7 +40,7 @@ android {
     }
     android.applicationVariants.all { final variant ->
         variant.outputs.all {
-            outputFileName = "MTweaks_v${variant.versionName}.apk"
+            outputFileName = "KKManager-v${variant.versionName}.apk"
         }
     }
 }
