@@ -92,7 +92,7 @@ public class AdLayout extends LinearLayout {
 
         mAdView = new AdView(context);
         mAdView.setAdSize(AdSize.SMART_BANNER);
-        mAdView.setAdUnitId("ca-app-pub-1851546461606210/7537613480");
+        mAdView.setAdUnitId("ca-app-pub-8438914365078486/2262345840");
         mAdView.setAdListener(new AdListener() {
             @Override
             public void onAdLoaded() {
