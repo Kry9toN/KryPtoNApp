@@ -574,6 +574,7 @@ public class NavigationActivity extends BaseActivity
 
         mDrawer.postDelayed(()
                         -> {
+                    Log.crashlyticsI("open " + fragment.getClass().getSimpleName());
                     getSupportFragmentManager().beginTransaction().replace(
                             R.id.content_frame, fragment, res + "_key").commitAllowingStateLoss();
                 },

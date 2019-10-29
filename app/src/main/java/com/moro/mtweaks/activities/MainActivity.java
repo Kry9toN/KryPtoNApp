@@ -490,6 +490,11 @@ public class MainActivity extends BaseActivity {
                 activity.startActivity(intent);
                 activity.finish();
 
+                if (!BuildConfig.DEBUG) {
+                    // Send problem to analytics to collect stats
+                    Answers.getInstance().logCustom(new CustomEvent("Can't access")
+                            .putCustomAttribute("no_found", mHasRoot ? "no busybox" : "no root"));
+                }
                 return;
             }
 
