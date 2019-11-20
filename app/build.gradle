@@ -40,7 +40,7 @@ android {
     }
     android.applicationVariants.all { final variant ->
         variant.outputs.all {
-            outputFileName = "KKManager-v${variant.versionName}.apk"
+            outputFileName = "KKManager-release.apk"
         }
     }
 }
