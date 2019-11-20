@@ -1,11 +1,12 @@
-# MTweaks
+[![Build Status](https://travis-ci.org/Kry9toN/KryPtoNApp.svg?branch=KKManager)](https://travis-ci.org/Kry9toN/KryPtoNApp)
 
-It is a Mod of Grarak's [KernelAdiutor](https://github.com/Grarak/KernelAdiutor) for compatibilize to Samsung Exynos.
+# KK Manager
+
+It is a Base APK of Grarak's [KernelAdiutor](https://github.com/Grarak/KernelAdiutor).
 Thanks to Willi Ye for this great application.
 
-
 ## Donation
-[![PayPal](https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png)](https://paypal.me/morogoku)
+[![PayPal](https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png)](https://paypal.me/DhimasGaming)
 
 ## Credits
 * Willi Ye, author of [KernelAdiutor](https://github.com/Grarak/KernelAdiutor)
