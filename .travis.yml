@@ -58,7 +58,7 @@ before_deploy:
 - cd app/build/outputs/apk/release/
 - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/release.jks -storepass $storepass -keypass $keypass KKManager-release.apk krypton
 # Verification
-- jarsigner -verify app-release-unsigned.apk
+- jarsigner -verify KKManager-release.apk
 - "${ANDROID_HOME}/build-tools/29.0.2/zipalign -v 4 KKManager-release.apk KKManager-v${variant.versionName}.apk"
 
 deploy:
