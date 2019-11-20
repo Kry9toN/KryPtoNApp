@@ -12,11 +12,11 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.moro.mtweaks.database.Settings;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.kernel.sound.MoroSound;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.R;
+import com.krypton.kernelmanager.database.Settings;
+import com.krypton.kernelmanager.utils.AppSettings;
+import com.krypton.kernelmanager.utils.kernel.sound.MoroSound;
+import com.krypton.kernelmanager.views.recyclerview.RecyclerViewItem;
+import com.krypton.kernelmanager.R;
 
 import java.util.HashMap;
 
