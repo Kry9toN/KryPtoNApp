@@ -584,7 +584,7 @@ public class NavigationActivity extends BaseActivity
                 },
                 250);
 		interstitial = new InterstitialAd(getApplicationContext());
-		interstitial.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+		interstitial.setAdUnitId("ca-app-pub-8438914365078486/2452690170");
 		AdRequest adRequest = new AdRequest.Builder().build();
 		interstitial.loadAd(adRequest);
 		interstitial.setAdListener(new AdListener() {

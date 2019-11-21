@@ -58,7 +58,7 @@ import java.util.List;
  */
 public class AdLayout extends LinearLayout {
 
-    public static final String ADS_FETCH = "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/ads/ads.json";
+    public static final String ADS_FETCH = "https://raw.githubusercontent.com/Kry9toN/KryPtoNApp/KKManager/ads/ads.json";
 
     private boolean mAdFailedLoading;
     private boolean mGHLoading;
