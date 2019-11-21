@@ -122,6 +122,9 @@ import com.krypton.kernelmanager.utils.root.RootUtils;
 import com.krypton.kernelmanager.utils.tools.Backup;
 import com.krypton.kernelmanager.utils.tools.SupportedDownloads;
 import com.krypton.kernelmanager.views.AdLayout;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.InterstitialAd;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -129,6 +132,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
+import android.app.*;
 
 public class NavigationActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -148,6 +152,7 @@ public class NavigationActivity extends BaseActivity
 
     private WebpageReader mAdsFetcher;
     private boolean mFetchingAds;
+	private InterstitialAd interstitial;
 
     @Override
     protected boolean setStatusBarColor() {
@@ -287,6 +292,17 @@ public class NavigationActivity extends BaseActivity
         SupportedDownloads supportedDownloads = new SupportedDownloads(this);
         if (supportedDownloads.getLink() != null) {
             mFragments.add(new NavigationActivity.NavigationFragment(R.string.downloads, DownloadsFragment.class, R.drawable.ic_download));
+			interstitial = new InterstitialAd(getApplicationContext());
+			interstitial.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+			AdRequest adRequest = new AdRequest.Builder().build();
+			interstitial.loadAd(adRequest);
+			interstitial.setAdListener(new AdListener() {
+					public void onAdLoaded() {
+						if (interstitial.isLoaded()) {
+							interstitial.show();
+						}
+					}
+				});
         }
         if (Backup.hasBackup()) {
             mFragments.add(new NavigationActivity.NavigationFragment(R.string.backup, BackupFragment.class, R.drawable.ic_restore));
