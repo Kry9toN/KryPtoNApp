@@ -35,7 +35,7 @@
         tools:ignore="GoogleAppIndexingWarning">
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="d89b7ebb31b3bb0ca514a4171c6af37c7c9579c9" />
+            android:value="3e91c6dd20188c77a7aab3676a1c7d796d87ea27" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-8438914365078486~1140835864"/>
