@@ -108,7 +108,7 @@ public class AboutFragment extends RecyclerViewFragment {
                                  @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_info, container, false);
             rootView.findViewById(R.id.image).setOnClickListener(view
-                    -> Utils.launchUrl("https://github.com/morogoku", getActivity()));
+                    -> Utils.launchUrl("https://github.com/Kry9toN", getActivity()));
             return rootView;
         }
     }
