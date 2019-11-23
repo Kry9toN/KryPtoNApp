@@ -51,7 +51,7 @@ public class DonationFragment extends RecyclerViewFragment {
             img.setDrawable(getResources().getDrawable(R.drawable.ic_donate_paypal));
         }
         img.setOnItemClickListener(item
-                -> Utils.launchUrl("https://www.paypal.me/morogoku", Objects.requireNonNull(getActivity())));
+                -> Utils.launchUrl("https://www.paypal.me/DhimasGaming", Objects.requireNonNull(getActivity())));
 
         items.add(img);
 
