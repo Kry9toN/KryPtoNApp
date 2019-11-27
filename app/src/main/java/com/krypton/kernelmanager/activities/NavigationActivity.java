@@ -292,17 +292,6 @@ public class NavigationActivity extends BaseActivity
         SupportedDownloads supportedDownloads = new SupportedDownloads(this);
         if (supportedDownloads.getLink() != null) {
             mFragments.add(new NavigationActivity.NavigationFragment(R.string.downloads, DownloadsFragment.class, R.drawable.ic_download));
-			interstitial = new InterstitialAd(getApplicationContext());
-			interstitial.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
-			AdRequest adRequest = new AdRequest.Builder().build();
-			interstitial.loadAd(adRequest);
-			interstitial.setAdListener(new AdListener() {
-					public void onAdLoaded() {
-						if (interstitial.isLoaded()) {
-							interstitial.show();
-						}
-					}
-				});
         }
         if (Backup.hasBackup()) {
             mFragments.add(new NavigationActivity.NavigationFragment(R.string.backup, BackupFragment.class, R.drawable.ic_restore));
